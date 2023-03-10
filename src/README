@@ -1,0 +1,25 @@
+
+#### Mănănilă Bogdan 323CB
+# Proiect POO
+
+
+Design Patterns implementate:
+
+## Singleton
+    Asigurea crearea unei singure instante din clasa StreamerFactory si furnizeaza un punct global de acces la ea.
+    Astfel se asigura ca nu vor fi create mai multe obiecte din clasa  StreamerFactory, unul fiind suficient.
+
+## Factory
+    Defineste o interfata pentru crearea unui obiect, dar lasa subclasele sa decida in privinta instatei.
+    Astfel, in functie de tipul primit pentru streamer (muzica, podcast, audiobook) se va intoarce un obiect din subclasa corespunzatoare (StreamerMuzica, StreamerPodcast, StreamerAudiobook).
+
+## Observer
+    Defineste o legatura unul la mai multe intre obiecte.
+    Astfel, daca un streamer decide sa stearga un stream, toti utilizatori care aveau acel stream in lista de ascultari il vor sterge.
+
+
+
+
+
+
+
